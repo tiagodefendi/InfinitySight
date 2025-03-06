@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "pack_format": 36,
+        "supported_formats": [36, 46],
+        "description": [            
+            {
+                "text":"v.Pre-Alpha ",
+                "color":"#ff6969"
+            },
+            {
+                "text":"• Made by Defendi\n",
+                "color":"#AAAAAA"
+            },
+            {
+                "text":"github.com/tiagodefendi",
+                "color":"#424952"
+            }
+        ]
+    }
+}
