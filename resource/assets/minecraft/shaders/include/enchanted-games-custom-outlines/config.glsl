@@ -12,23 +12,22 @@
 //   pack, it will probably crash!
 
 const vec4 block_COLOURS[] = vec4[](
-vec4(1.0, 0.0, 0.4156862745, 1.0),
-vec4(1.0, 0.0, 0.0, 1.0),
-vec4(1.0, 0.0, 0.1490196078, 1.0)
+vec4(1.0, 1.0, 1.0, 1.0)
 );
-#define block_ANIM_SPEED 1200
-#define block_COLOUR_PERIOD 8
+#define block_ANIM_SPEED 700
+#define block_COLOUR_PERIOD 2
 #define block_SMOOTH_MIX true
 #define block_ANIMATE_WITH_DISTANCE true
 #define block_ANIMATE_ALONG_LINES false
 #define block_ANIM_DIRECTION -1
-#define block_LINE_THICKNESS 5
+#define block_LINE_THICKNESS 3
 #define block_IGNORES_DEPTH false
 
 const vec4 hc_block_COLOURS[] = vec4[](
-vec4(1.0, 0.0, 0.4166666667, 1.0),
 vec4(1.0, 0.0, 0.0, 1.0),
-vec4(1.0, 0.0, 0.15, 1.0)
+vec4(0.7333333333, 0.0, 1.0, 1.0),
+vec4(1.0, 0.0, 0.9666666667, 1.0),
+vec4(1.0, 0.0, 0.45, 1.0)
 );
 #define hc_block_ANIM_SPEED 700
 #define hc_block_COLOUR_PERIOD 2
@@ -48,7 +47,7 @@ vec4(0.0, 0.0, 0.0, 1.0)
 #define hc_block_outer_ANIMATE_WITH_DISTANCE true
 #define hc_block_outer_ANIMATE_ALONG_LINES false
 #define hc_block_outer_ANIM_DIRECTION -1
-#define hc_block_outer_LINE_THICKNESS 10
+#define hc_block_outer_LINE_THICKNESS 7
 #define hc_block_outer_IGNORES_DEPTH false
 
 const vec4 hitbox_COLOURS[] = vec4[](
